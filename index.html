@@ -26,6 +26,13 @@
             margin: 24px 0;
         }
 
+        .transcript {
+            background: #f3f4f6;
+            border-left: 4px solid #2563eb;
+            padding: 12px 14px;
+            margin: 14px 0 18px;
+        }
+
         .audio-row {
             margin: 14px 0;
         }
@@ -48,24 +55,28 @@
     <div class="sample">
         <h2>Sample 1</h2>
 
+        <div class="transcript">
+            <strong>Target text:</strong> paste transcript for sample 1 here
+        </div>
+
         <div class="audio-row">
             <div class="label">Ground Truth</div>
             <audio controls>
-                <source src="audio/sample1_ground_truth.wav" type="audio/wav">
+                <source src="audio/sample1/ground_truth.wav" type="audio/wav">
             </audio>
         </div>
 
         <div class="audio-row">
             <div class="label">Original MAVE</div>
             <audio controls>
-                <source src="audio/sample1_original_mave.wav" type="audio/wav">
+                <source src="audio/sample1/original_mave.wav" type="audio/wav">
             </audio>
         </div>
 
         <div class="audio-row">
             <div class="label">Cross-Attn MAVE</div>
             <audio controls>
-                <source src="audio/sample1_cross_attn_mave.wav" type="audio/wav">
+                <source src="audio/sample1/cross_attn_mave.wav" type="audio/wav">
             </audio>
         </div>
     </div>
@@ -73,24 +84,57 @@
     <div class="sample">
         <h2>Sample 2</h2>
 
+        <div class="transcript">
+            <strong>Target text:</strong> paste transcript for sample 2 here
+        </div>
+
         <div class="audio-row">
             <div class="label">Ground Truth</div>
             <audio controls>
-                <source src="audio/sample2_ground_truth.wav" type="audio/wav">
+                <source src="audio/sample2/ground_truth.wav" type="audio/wav">
             </audio>
         </div>
 
         <div class="audio-row">
             <div class="label">Original MAVE</div>
             <audio controls>
-                <source src="audio/sample2_original_mave.wav" type="audio/wav">
+                <source src="audio/sample2/original_mave.wav" type="audio/wav">
             </audio>
         </div>
 
         <div class="audio-row">
             <div class="label">Cross-Attn MAVE</div>
             <audio controls>
-                <source src="audio/sample2_cross_attn_mave.wav" type="audio/wav">
+                <source src="audio/sample2/cross_attn_mave.wav" type="audio/wav">
+            </audio>
+        </div>
+    </div>
+
+    <div class="sample">
+        <h2>Sample 3</h2>
+
+        <div class="transcript">
+            <strong>Target text:</strong> paste transcript for sample 3 here
+        </div>
+
+        <div class="audio-row">
+            <div class="label">Ground Truth</div>
+            <audio controls>
+                <source src="audio/sample3/ground_truth.wav" type="audio/wav">
+            </audio>
+        </div>
+
+        <div class="audio-row">
+            <div class="label">Original MAVE</div>
+            <audio controls>
+                <source src="audio/sample3/original_mave.wav" type="audio/wav">
+            </audio>
+        </div>
+
+        <div class="audio-row">
+            <div class="label">Cross-Attn MAVE</div>
+            <audio controls>
+                <source src="audio/sample3/cross_attn_mave.wav" type="audio/wav">
             </audio>
         </div>
     </div>
